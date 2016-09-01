@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: UDPTool - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/UDPTool.res" /d "NDEBUG" "C:\Users\Administrator\Desktop\tcp&udp\udp\UDPTool_WIN\UDPTool_WIN_timer_v3\UDPTool.rc"" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP22C3.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/UDPTool.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\tcp&udp\udp\UDPTool_WIN\UDPTool_WIN_timer_v3\funcs.cpp"
+"C:\Users\Administrator\Desktop\tcp&udp\udp\UDPTool_WIN\UDPTool_WIN_timer_v3\udp.cpp"
+"C:\Users\Administrator\Desktop\tcp&udp\udp\UDPTool_WIN\UDPTool_WIN_timer_v3\UDPTool.cpp"
+"C:\Users\Administrator\Desktop\tcp&udp\udp\UDPTool_WIN\UDPTool_WIN_timer_v3\UDPToolDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP22C3.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP22D4.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/UDPTool.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Desktop\tcp&udp\udp\UDPTool_WIN\UDPTool_WIN_timer_v3\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP22D4.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP22D5.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/UDPTool.pdb" /machine:I386 /out:"Release/UDPTool.exe" 
+".\Release\funcs.obj"
+".\Release\StdAfx.obj"
+".\Release\udp.obj"
+".\Release\UDPTool.obj"
+".\Release\UDPToolDlg.obj"
+".\Release\UDPTool.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP22D5.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+funcs.cpp
+udp.cpp
+UDPTool.cpp
+UDPToolDlg.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+LINK : warning LNK4089: all references to "comdlg32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+UDPTool.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
